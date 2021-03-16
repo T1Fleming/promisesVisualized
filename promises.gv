@@ -1,0 +1,12 @@
+ digraph G {
+
+start [label = "begin"]
+n1 [label = "console.log('hello')"]
+n2 [label = "execute asyncFn(a)"]
+n3 [label = "console.log('Just waiting for a finish')"]
+
+
+start -> end
+n1 -> n2 -> n3
+
+}
